@@ -135,7 +135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &62449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 71788464}
   - component: {fileID: 71788463}
   m_Layer: 0
-  m_Name: RElbow Blue
+  m_Name: RightWrist LFootPC2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -455,7 +455,7 @@ GameObject:
   - component: {fileID: 133055273}
   - component: {fileID: 133055272}
   m_Layer: 0
-  m_Name: Waist Yellow
+  m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,14 +665,14 @@ MonoBehaviour:
     spine:
       bones: []
       headTarget: {fileID: 1210177796}
-      positionWeight: 0.48
+      positionWeight: 0.5
       rotationWeight: 0.5
       headClampWeight: 0.6
       minHeadHeight: 0.8
       useAnimatedHeadHeightWeight: 0
       useAnimatedHeadHeightRange: 0.1
       animatedHeadHeightBlend: 0.3
-      pelvisTarget: {fileID: 133055273}
+      pelvisTarget: {fileID: 558819138}
       pelvisPositionWeight: 0.893
       pelvisRotationWeight: 0.5
       maintainPelvisPosition: 0.2
@@ -688,7 +688,7 @@ MonoBehaviour:
       rootHeadingOffset: 0
     leftArm:
       bones: []
-      target: {fileID: 2095573673}
+      target: {fileID: 1317728327}
       positionWeight: 1
       rotationWeight: 0.5
       shoulderRotationWeight: 1
@@ -710,7 +710,7 @@ MonoBehaviour:
         m_RotationOrder: 4
     rightArm:
       bones: []
-      target: {fileID: 71788464}
+      target: {fileID: 503350985}
       positionWeight: 1
       rotationWeight: 0.5
       shoulderRotationWeight: 1
@@ -732,9 +732,9 @@ MonoBehaviour:
         m_RotationOrder: 4
     leftLeg:
       bones: []
-      target: {fileID: 338668218}
-      positionWeight: 1
-      rotationWeight: 0.763
+      target: {fileID: 0}
+      positionWeight: 0
+      rotationWeight: 0
       bendGoal: {fileID: 0}
       bendGoalWeight: 0
       swivelOffset: 0
@@ -749,9 +749,9 @@ MonoBehaviour:
       useAnimatedBendNormal: 0
     rightLeg:
       bones: []
-      target: {fileID: 953992648}
-      positionWeight: 1
-      rotationWeight: 0.609
+      target: {fileID: 0}
+      positionWeight: 0
+      rotationWeight: 0
       bendGoal: {fileID: 0}
       bendGoalWeight: 0
       swivelOffset: 0
@@ -1043,7 +1043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &271329956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,7 +1334,7 @@ GameObject:
   - component: {fileID: 338668218}
   - component: {fileID: 338668217}
   m_Layer: 0
-  m_Name: LeftFoot Orange
+  m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1846,7 +1846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100176, guid: ae23d50304c93b9418b65cec8f9fe954, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400176, guid: ae23d50304c93b9418b65cec8f9fe954, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2098,7 +2098,7 @@ GameObject:
   - component: {fileID: 953992648}
   - component: {fileID: 953992647}
   m_Layer: 0
-  m_Name: RFoot White
+  m_Name: Waist WaistPC1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2150,7 +2150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &972497180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3150,7 +3150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1811994101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3562,7 +3562,7 @@ GameObject:
   - component: {fileID: 2095573673}
   - component: {fileID: 2095573672}
   m_Layer: 0
-  m_Name: LElbow Purple
+  m_Name: LeftWrist WaistPC2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
